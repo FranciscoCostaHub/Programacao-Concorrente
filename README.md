@@ -68,17 +68,17 @@ Processamento de múltiplas pastas
 # Transformações Aplicadas
 Cada imagem gera 5 versões:
 
-contrast_*.jpeg - Contraste aumentado
-blur_*.jpeg - Efeito blur
-sepia_*.jpeg - Tom sépia
-thumb_*.jpeg - Miniatura (1/5 do tamanho)
-gray_*.jpeg - Escala de cinza
+contrast_*.jpeg - Contraste aumentado; 
+blur_*.jpeg - Efeito blur; 
+sepia_*.jpeg - Tom sépia; 
+thumb_*.jpeg - Miniatura (1/5 do tamanho); 
+gray_*.jpeg - Escala de cinza; 
 
 Saída: pasta Result-image-dir/
 
 # Performance
 O número de threads influencia diretamente o tempo de processamento. Ficheiro timing_*.txt contém:
 
-Tempo total
-Tempo de cada thread
-Tempo não paralelo
+Tempo total;
+Tempo de cada thread;
+Tempo não paralelo;
